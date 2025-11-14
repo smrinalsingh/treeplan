@@ -1,27 +1,36 @@
-# treeplan
-The Excel add-in for tree plan, free and modern version.
-![](screenshot-1.jpg)
+# TreePlan Documentation
 
-## Why this
-The widespread treeplan add-in on the web was created in last decade. It is not user friendly and it does not work with Excel for Mac. As the homework for the *"Data, Modeling and Analysis"* course in SJTU Antai MBA, I rewrote this add-in.
+This directory contains documentation and screenshots for the TreePlan Excel add-in.
 
-It has the following features:
+## Contents
 
-* modern user friendly UI
-* three built-in themes
-* support for both macOS and Windows
-* free forever
+- `screenshot-1.jpg` - Main interface screenshot showing the TreePlan ribbon and a sample decision tree
 
-## How to install
-Install this as a normal Excel add-in:
+## Main Documentation
 
-1. Download the `BYTreePlan.xlam` file
+For complete documentation, installation instructions, and usage guide, please see the main [README.md](../README.md) in the root directory.
 
-2. (macOS) Open Excel, on the **Tools** menu, select **Excel Add-ins**.
+## Screenshot
 
-   (Windows) Open Excel, click the **File** tab, click **Options**, and then click the **Add-Ins** category.
+![TreePlan Interface](screenshot-1.jpg)
 
-3. Click **Browse** to locate the add-in file, and then click **OK**.
+The screenshot above shows:
+- The TreePlan ribbon tab with all available commands
+- A sample decision tree with decision nodes, event nodes, and terminal nodes
+- The clean, modern interface design
 
-## Support
-I did this for my homework but I could not guarantee any support. That's the reason I put this on github so anyone can fork and contribute. You can still submit issues here, occasionally I may fix bugs and release new versions.
+## Additional Resources
+
+- [Installation Guide](../README.md#installation)
+- [Usage Instructions](../README.md#usage)
+- [Contributing Guidelines](../CONTRIBUTING.md)
+- [Version History](../CHANGELOG.md)
+
+## Office Compatibility
+
+TreePlan works with:
+- Microsoft Excel 2007 and later (Windows)
+- Microsoft Excel 2016 and later (macOS)
+- Office 2019, 2021, and Microsoft 365
+
+The add-in uses the Office Fluent UI (Ribbon) interface and requires macros to be enabled.

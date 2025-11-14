@@ -1,0 +1,49 @@
+name: Question
+description: Ask a question about using TreePlan
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question? Please check the [README](../README.md) and [documentation](../docs/) first!
+        
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know?
+      placeholder: Please be as specific as possible
+    validations:
+      required: true
+      
+  - type: textarea
+    id: tried
+    attributes:
+      label: What Have You Tried?
+      description: What have you already attempted?
+      placeholder: I tried... but it didn't work because...
+      
+  - type: dropdown
+    id: category
+    attributes:
+      label: Question Category
+      description: What is your question about?
+      options:
+        - Installation
+        - Usage - Creating Trees
+        - Usage - Node Operations
+        - Usage - Branch Management
+        - Configuration/Options
+        - Compatibility
+        - Development/Contributing
+        - Other
+    validations:
+      required: true
+      
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other context or screenshots about your question
+      placeholder: Drag and drop images or add more details
