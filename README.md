@@ -120,15 +120,25 @@ This project was created as homework for the "Data, Modeling and Analysis" cours
 
 This modern rewrite addresses all these issues while being completely free and open source.
 
+## Documentation
+
+- **[Installation & Usage](README.md)** - This file
+- **[Office Compatibility Guide](docs/COMPATIBILITY.md)** - Detailed compatibility information
+- **[Developer Guide](docs/DEVELOPER_GUIDE.md)** - For contributors and developers
+- **[Contributing Guidelines](CONTRIBUTING.md)** - How to contribute
+- **[Changelog](CHANGELOG.md)** - Version history
+
 ## Contributing
 
-Contributions are welcome! This project is maintained on a best-effort basis. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions are welcome! This project is maintained on a best-effort basis. 
 
-### Development
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines and [docs/DEVELOPER_GUIDE.md](docs/DEVELOPER_GUIDE.md) for detailed development information.
+
+### Quick Start for Developers
 
 The add-in is built using:
 - VBA (Visual Basic for Applications)
-- Office Ribbon XML customization
+- Office Ribbon XML customization (2009/2010 schema)
 - Excel 2007+ Open XML format
 
 To modify the add-in:
@@ -137,6 +147,8 @@ To modify the add-in:
 3. Make your changes
 4. Save and test
 5. Export as `.xlam` for distribution
+
+For more details, see the [Developer Guide](docs/DEVELOPER_GUIDE.md).
 
 ## Support
 
