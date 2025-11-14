@@ -60,6 +60,10 @@ cd treeplan
 
 Then follow the installation steps above using the `BYTreePlan.xlam` file from the repository.
 
+## Quick Start
+
+New to TreePlan? See the **[Quick Start Guide](docs/QUICKSTART.md)** for a 5-minute tutorial!
+
 ## Usage
 
 ### Creating a New Tree
@@ -122,9 +126,11 @@ This modern rewrite addresses all these issues while being completely free and o
 
 ## Documentation
 
+- **[Quick Start Guide](docs/QUICKSTART.md)** - Get started in 5 minutes!
 - **[Installation & Usage](README.md)** - This file
 - **[Office Compatibility Guide](docs/COMPATIBILITY.md)** - Detailed compatibility information
 - **[Developer Guide](docs/DEVELOPER_GUIDE.md)** - For contributors and developers
+- **[Release Notes](docs/RELEASE_NOTES.md)** - Detailed version history
 - **[Contributing Guidelines](CONTRIBUTING.md)** - How to contribute
 - **[Changelog](CHANGELOG.md)** - Version history
 
