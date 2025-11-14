@@ -1,0 +1,98 @@
+name: Bug Report
+description: Report a bug or issue with TreePlan
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the form below.
+        
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+      
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: excel-version
+    attributes:
+      label: Excel Version
+      description: Which version of Excel are you using?
+      options:
+        - Excel 2007
+        - Excel 2010
+        - Excel 2013
+        - Excel 2016
+        - Excel 2019
+        - Excel 2021
+        - Microsoft 365
+        - Excel for Mac 2016
+        - Excel for Mac 2019
+        - Excel for Mac 2021
+        - Other (please specify in additional context)
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      description: Which operating system are you using?
+      options:
+        - Windows 11
+        - Windows 10
+        - Windows 8/8.1
+        - Windows 7
+        - macOS Ventura (13.x)
+        - macOS Monterey (12.x)
+        - macOS Big Sur (11.x)
+        - macOS Catalina (10.15)
+        - Other (please specify in additional context)
+    validations:
+      required: true
+      
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem
+      placeholder: Drag and drop images here
+      
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here
+      placeholder: Any other relevant information
